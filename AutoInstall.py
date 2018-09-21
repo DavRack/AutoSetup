@@ -4,6 +4,7 @@ import sys
 import os
 usuario = os.path.expanduser("~")
 
+
 def instalar_todos():
 
     if os.path.exists("Programs"):
@@ -21,7 +22,7 @@ def instalar_todos():
                 out = subprocess.check_output(comando,shell=True).decode("UTF-8").split("\n") 
 
                 comando = "./Programs/"+carpeta+"/"+archivo 
-                out = subprocess.check_output(comando,shell=True).decode("UTF-8").split("\n") 
+                out = os.system(comando)
                 print(out)
 
             print("Ejecutados todos los archivos de la carpeta "+carpeta)
