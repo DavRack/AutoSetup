@@ -1,2 +1,2 @@
-#!/bin/bash/
-sudo apt install texlive
+#!/bin/bash
+sudo apt install texlive-latex-extra
