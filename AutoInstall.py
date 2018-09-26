@@ -6,7 +6,6 @@ import os
 
 usuario = os.path.expanduser("~")
 
-
 texto_header = '"# Los simbolos # denotan lineas que no serán interpretadas \n# las lineas que no comiencen con # se interpretaran como carpetas a instalar \n# remueva # alcomienzo de cada programa a instalar, remueva # en caso que no desee instalar dicho programa \n# cuando termine de editar el archivo guardelo y salga del editor \n# ¿Que programas desea instalar? \n \n \n'
 
 
@@ -27,7 +26,7 @@ def instalar_carpeta(carpeta):
 
 
 def instalar_todos():
-
+    """Instala todos los programas de la carpeta programas"""
     if os.path.exists("Programs"):
         carpetas = subprocess.check_output("ls Programs", shell=True).decode("UTF-8").split("\n") 
         # crea una lista con todas las carpetas del directorio
@@ -78,7 +77,7 @@ def seleccionar(editor):
 
 def deseleccionar(editor):
     """Abre un editor de texto donde el usuario pude
-    seleccionar los programas que quiere instalar
+    seleccionar los programas que no quiere instalar
     El editor por defecto es vim"""
 
     if os.path.exists("Programs"):
@@ -110,11 +109,10 @@ def deseleccionar(editor):
 
 
 def mostrar_programas():
+    """muestra todos los programas de la carpeta Programs"""
     carpetas = subprocess.check_output("ls Programs", shell=True).decode("UTF-8").split("\n") 
     for programa in carpetas:
         print(programa)
-
-
 
 
 ayuda = "\
@@ -162,5 +160,5 @@ elif len(sys.argv) == 1:
     print("Se necesita un argumento")
     print(ayuda)
 
-elif len(sys.argv) > 2:
+elif len(sys.argv) > 3:
     print("demasiados argumentos")
