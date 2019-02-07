@@ -1,0 +1,3 @@
+#!/bin/bash
+
+sudo apt install xorg i3 compton -y
