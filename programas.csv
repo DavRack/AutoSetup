@@ -1,0 +1,23 @@
+Nombre,Descripccion,Comando,Grupo
+R,Lenguaje de programación estadistico,R.sh,
+acpi,mostrar bateria,,i3
+chrome,navegador web,chrome.sh,
+darktable,editor de fotos,,
+ffmpeg,herramientas de manipulacion de videos,,
+gparted,gestor de particiones,,
+i3gaps,Gestor de ventanas,i3gaps.sh,i3
+latex,lenguaje de programación para documentos,texlive-latex-extra,
+lstopo,mostrar topologia del sistema,hwloc,
+neovim,Editor de texto,,
+pandoc,,,
+python,lenguaje de programación,python python3,
+samba,protocolo de compartición de archivos,samba samba-client,
+st,Simple terminal,stinstall.sh,
+steam,tienda de juegos,,
+tmux,multiplexador de terminal,,
+ukuu,actualizar kernel,ukuu.sh,
+virt-manager,gestor de maquinas virtuales,virt-manager qemu-kvm ovmf,
+vlc,reproductor multimedia,,
+zathura,visor de pdf,,
+
+

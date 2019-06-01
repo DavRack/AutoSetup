@@ -1,4 +1,0 @@
-#!/bin/bash
-
-sudo apt install virt-manager qemu-kvm ovmf -y
-
