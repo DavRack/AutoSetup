@@ -12,6 +12,7 @@ neovim,Editor de texto,,
 pandoc,,,
 python,lenguaje de programación,python python3,
 samba,protocolo de compartición de archivos,samba samba-client,
+scrot,capturas de pantalla,,i3
 st,Simple terminal,stinstall.sh,
 steam,tienda de juegos,,
 tmux,multiplexador de terminal,,
