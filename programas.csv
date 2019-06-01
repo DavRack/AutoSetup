@@ -5,6 +5,7 @@ chrome,navegador web,chrome.sh,
 darktable,editor de fotos,,
 ffmpeg,herramientas de manipulacion de videos,,
 gparted,gestor de particiones,,
+i3blocks,barra de estado,,i3
 i3gaps,Gestor de ventanas,i3gaps.sh,i3
 latex,lenguaje de programación para documentos,texlive-latex-extra,
 lstopo,mostrar topologia del sistema,hwloc,
