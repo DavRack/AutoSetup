@@ -1,22 +1,23 @@
 Nombre,Descripccion,Comando,Grupo
-FontAwesome,Fuentes,fonts-font-awesome,,
-R,Lenguaje de programación estadistico,R.sh,
 acpi,mostrar bateria,,i3
 arandr,Configuracion de pantalla de salida,,
 arndr,configuracion de salidas,,i3
 chrome,navegador web,chrome.sh,
 darktable,editor de fotos,,
 emojiFont,Fuente con soporte emoji,fonts-noto-color-emoji,
-ffmpeg,herramientas de manipulacion de videos,,
 feh,fondos de pantalla,,
+ffmpeg,herramientas de manipulacion de videos,,
+flameshot,capturas inteligentes de pantalla,,
+fontAwesome,Fuentes,fonts-font-awesome,,
 gparted,gestor de particiones,,
 i3blocks,barra de estado,,i3
 i3gaps,Gestor de ventanas,i3gaps.sh,i3
-latex,lenguaje de programación para documentos,texlive-latex-extra,
+latex,lenguaje de programación para documentos,texlive-latex-extra texlive-lang-spanish,
 lstopo,mostrar topologia del sistema,hwloc,
 neovim,Editor de texto,,
 pandoc,conversor de documentos,,
 python,lenguaje de programación,python python3,
+r,Lenguaje de programación estadistico,R.sh,
 samba,protocolo de compartición de archivos,samba samba-client,
 sc-im,Hojas de calculo en terminal,sc-im.sh,
 scrot,capturas de pantalla,,i3
