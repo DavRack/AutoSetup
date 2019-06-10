@@ -1,4 +1,5 @@
 Nombre,Descripccion,Comando,Grupo
+flameshot,capturas de pantalla,,
 acpi,mostrar bateria,,i3
 arandr,Configuracion de pantalla de salida,,
 arndr,configuracion de salidas,,i3
@@ -20,7 +21,6 @@ python,lenguaje de programación,python python3,
 r,Lenguaje de programación estadistico,R.sh,
 samba,protocolo de compartición de archivos,samba samba-client,
 sc-im,Hojas de calculo en terminal,sc-im.sh,
-scrot,capturas de pantalla,,i3
 st,Simple terminal,stinstall.sh,
 steam,tienda de juegos,,
 tmux,multiplexador de terminal,,
