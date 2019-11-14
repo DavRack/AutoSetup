@@ -11,6 +11,8 @@ flameshot,capturas de pantalla,,
 flameshot,capturas inteligentes de pantalla,,
 fontAwesome,Fuentes,fonts-font-awesome,,
 gparted,gestor de particiones,,
+openssh,,,
+htop,herramientas de red,net-tools,
 htop,,,
 i3blocks,barra de estado,,i3
 i3gaps,Gestor de ventanas,i3gaps.sh,i3
