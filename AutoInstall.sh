@@ -27,7 +27,7 @@ function getToInstall () {
             grupo=$(echo $line | cut -d',' -f4)
             nombre=$(echo $line | cut -d',' -f1)
             grupoAInstalar=$1
-            if [ "$grupo" == "$grupoAInstalar" ] || [ "$grupoAInstalar" == "" ]
+            if [[ "$grupo" == *"$grupoAInstalar"* ]] || [ "$grupoAInstalar" == "" ]
             then    
                 if [ "${comando: -3}" != ".sh" ] # ignora los programas que se instalan con script
                 then

@@ -2,34 +2,54 @@ Nombre,Descripccion,Comando,Grupo
 acpi,mostrar bateria,,i3
 arandr,Configuracion de pantalla de salida,,
 chrome,navegador web,chrome.sh,
+cmake,Dependencia de compilacion,,wm polybar i3 dependencia
+cmake-data,Dependencia de compilacion,,wm polybar i3 dependencia
 darktable,editor de fotos,,
 emojiFont,Fuente con soporte emoji,fonts-noto-color-emoji,
 exfat,compatibilidad con exfat,exfat-utils,
 feh,fondos de pantalla,,
 ffmpeg,herramientas de manipulacion de videos,,
-flameshot,capturas de pantalla,,
 flameshot,capturas inteligentes de pantalla,,
 fontAwesome,Fuentes,fonts-font-awesome,,
 gparted,gestor de particiones,,
-openssh,,,
-htop,herramientas de red,net-tools,
 htop,,,
+htop,herramientas de red,net-tools,
+i3-wm,Dependencia de compilacion,,wm polybar i3 dependencia
 i3blocks,barra de estado,,i3
 i3gaps,Gestor de ventanas,i3gaps.sh,i3
 latex,lenguaje de programación para documentos,texlive-latex-extra texlive-lang-spanish,
+libasound2-dev,Dependencia de compilacion,,wm polybar i3 dependencia
+libcairo2-dev,Dependencia de compilacion,,wm polybar i3 dependencia
+libcurl4-openssl-dev,Dependencia de compilacion,,wm polybar i3 dependencia
+libiw-dev,Dependencia de compilacion,,wm polybar i3 dependencia
+libmpdclient-dev,Dependencia de compilacion,,wm polybar i3 dependencia
+libpulse-dev,Dependencia de compilacion,,wm polybar i3 dependencia
+libxcb-ewmh-dev,Dependencia de compilacion,,wm polybar i3 dependencia
+libxcb-icccm4-dev,Dependencia de compilacion,,wm polybar i3 dependencia
+libxcb-image0-dev,Dependencia de compilacion,,wm polybar i3 dependencia
+libxcb-randr0-dev,Dependencia de compilacion,,wm polybar i3 dependencia
+libxcb-util0-dev,Dependencia de compilacion,,wm polybar i3 dependencia
+libxcb-xkb-dev,Dependencia de compilacion,,wm polybar i3 dependencia
+libxcb-xrm-dev,Dependencia de compilacion,,wm polybar i3 dependencia
+libxcb1-dev,Dependencia de compilacion,,wm polybar i3 dependencia
 lstopo,mostrar topologia del sistema,hwloc,
 neofetch,,,
 neovim,Editor de texto,,
+openssh,,,
 pandoc,conversor de documentos,,
 pip,gestor de paquetes python,python3-pip,
+pkg-config,Dependencia de compilacion,,wm polybar i3 dependencia
 python,lenguaje de programación,python python3,
+python-xcbgen,Dependencia de compilacion,,wm polybar i3 dependencia
 r,Lenguaje de programación estadistico,R.sh,
 samba,protocolo de compartición de archivos,samba samba-client,
 sc-im,Hojas de calculo en terminal,sc-im.sh,
 steam,tienda de juegos,,
 tmux,multiplexador de terminal,,
 ukuu,actualizar kernel,ukuu.sh,
+polybar,Barra de status para gestores de ventanas,polybar.sh,polybar wm i3
 ulauncher,lanzador de aplicaciones,ulauncher.sh,
 virt-manager,gestor de maquinas virtuales,virt-manager qemu-kvm ovmf,
 vlc,reproductor multimedia,,
+xcb-proto,Dependencia de compilacion,,wm polybar i3 dependencia
 zathura,visor de pdf,,

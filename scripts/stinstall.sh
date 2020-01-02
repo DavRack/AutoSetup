@@ -4,4 +4,5 @@ mkdir -p ~/programas
 cd ~/programas
 git clone https://github.com/davidlo176/stconf.git
 cd stconf
-./stinstall.sh
+pwd
+./install.sh
